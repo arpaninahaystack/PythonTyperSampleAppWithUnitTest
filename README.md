@@ -4,14 +4,14 @@
 project/
 │
 ├── project/
-│   ├── __init__.py
-│   ├── __main__.py
+│   ├── init.py
+│   ├── main.py
 │   ├── cli.py
 │   ├── config.py
 │   └── project.py
 │
 ├── tests/
-│   ├── __init__.py
+│   ├── init.py
 │   └── test_rptodo.py
 │
 ├── README.md

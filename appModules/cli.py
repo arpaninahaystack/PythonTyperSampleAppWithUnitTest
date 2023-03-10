@@ -35,15 +35,17 @@ def main(
     return   
 
 @typerApp.command()
-def init() -> None:
-    """Initialize """
-    app_init_error = config.init_app()
-    if app_init_error:
-        typer.secho(
-            f'Creating config file failed with "{ERROR}"',
-            fg=typer.colors.RED,
-        )
-        raise typer.Exit(1)
+# def init() -> None:
+#     """Initialize """
+#     app_init_error = config.init_app()
+#     if app_init_error:
+#         typer.secho(
+#             f'Creating config file failed with "{ERROR}"',
+#             fg=typer.colors.RED,
+#         )
+#         raise typer.Exit(1)
+#     else:
+#         typer.secho(f"Config file created !!", fg=typer.colors.GREEN)
 
 def result() -> mainController.MainController:
     return mainController.MainController  

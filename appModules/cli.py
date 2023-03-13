@@ -34,7 +34,7 @@ def main(
 ) -> None:
     return   
 
-@typerApp.command()
+#@typerApp.command()
 # def init() -> None:
 #     """Initialize """
 #     app_init_error = config.init_app()
